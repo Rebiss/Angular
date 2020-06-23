@@ -1,9 +1,13 @@
 # Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
+[Angular CLI](https://github.com/angular/angular-cli)
 
-## Development server
-Run `ng serve` 
-Run `ng build` 
-Run `ng test` 
-Run `ng e2e` 
+## Development
+
+```bash
+$ng serve
+$ng build --prod
+$ng test
+$ng lint
+$ng e2e
+```
