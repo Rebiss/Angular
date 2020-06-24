@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "alter": "ng serve --port 1122",
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
