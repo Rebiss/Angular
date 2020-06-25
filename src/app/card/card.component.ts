@@ -34,4 +34,9 @@ export class CardComponent implements OnInit {
     this.title = "Text changes";
     console.log(this.title);
   }
+
+  inputHandler(val) {
+    // const val = ev.target.value;
+    this.title = val;
+  }
 }

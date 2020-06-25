@@ -6,9 +6,9 @@
   <p class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iusto.</p>
 
   <div>{{ info()}}</div>
-  <div>
+  <!-- <div>
     <img class="img" src="{{url}}" alt="urubaoris">
-  </div>
+  </div> -->
   <div>
     <img class="img" [src]="url">
     <button [disabled]='boolDis'> Send </button>
@@ -19,4 +19,10 @@
     <button (click)='changeTitle()'> Change Title </button>
     <button (click)="title ='Title Changes Olaa' ">Change title line</button>
   </div>
+
+  <!--
+  <h1>{{ title }}</h1>
+  <div>
+    <input type="text" #myInput (input)="inputHandler(myInput.value)" [value]='title'>
+  </div> -->
 </div>
