@@ -39,4 +39,8 @@ export class CardComponent implements OnInit {
     // const val = ev.target.value;
     this.title = val;
   }
+
+  chHandler() {
+    console.log(this.title);
+  }
 }

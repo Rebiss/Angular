@@ -25,4 +25,8 @@
   <div>
     <input type="text" #myInput (input)="inputHandler(myInput.value)" [value]='title'>
   </div> -->
+
+  <div>
+    <input type="text" [(ngModel)]="title" (ngModelChange)="chHandler()">
+  </div>
 </div>
